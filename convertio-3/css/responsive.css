@@ -1,0 +1,385 @@
+@media (max-width:768px) {
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #42A4D9;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #fff;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .left_side .content {
+        margin: 60px 0 30px 45px;
+    }
+
+    .right_side .img img {
+        margin-top: 110px;
+    }
+
+    .services_right h2 {
+        font-size: 34px;
+    }
+
+    .services_right p {
+        font-size: 13px;
+    }
+
+    .services_left_2 h2 {
+        font-size: 34px;
+    }
+
+    .services_left_2 p {
+        font-size: 13px;
+    }
+
+    .services_left_2 p {
+        font-size: 11px;
+    }
+
+    .services_right_3 h2 {
+        font-size: 34px;
+    }
+
+    .services_right_3 p {
+        font-size: 13px;
+    }
+
+    .bring_system .left_side {
+        width: auto;
+        float: none;
+        text-align: center;
+    }
+
+    .bring_system .right_side {
+        width: auto;
+        float: none;
+        margin-left: 5rem;
+    }
+
+    .bring_system .left_side p {
+        padding-right: 0;
+    }
+
+    .card_2 {
+        margin-top: 0;
+    }
+
+    .card_3 {
+        margin-top: 0;
+    }
+
+    .card_4 {
+        margin-top: 0;
+    }
+
+    .main_card {
+        margin: 40px 0 15px 0;
+    }
+
+    .card_body .application_card_icon {
+        margin-left: 80px;
+    }
+
+    .card_body .application_card_p {
+        font-size: 13px;
+        padding-top: 0;
+    }
+
+    .card_body .application_card_title {
+        font-size: 1rem;
+        padding-top: 15px;
+    }
+
+    .customers h2{
+        font-size: 25px;
+    }
+    .customers p{
+        font-size: 12px;
+    }
+    .accordion{
+        width: auto;
+    }
+    .accordion_tab > label{
+        padding: 12px 170px;
+    }
+    .accordion_tab > label::after{
+        left: 540px;
+    }
+    .modernize_left_side img {
+        margin: 0 0 0 -30px;
+    }
+    .modernize_right_side h2{
+        font-size: 30px;
+    }
+    .modernize_btn{
+        display: flex;
+    }
+    .modernize_btn img{
+        margin: 0 10px 0 0;
+    }
+    #foot .main_footer{
+        align-items: flex-start;
+    }
+    
+}
+
+@media (max-width:477px) {
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 0px 30px;
+    }
+
+    #hero {
+        flex-direction: column;
+    }
+
+    .left_side .content {
+        margin: 60px 0 30px 10px;
+    }
+
+    .content h2 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .content .image {
+        margin-left: 0;
+    }
+
+    .right_side {
+        width: auto;
+    }
+
+    .right_side .img img {
+        margin-top: 0;
+    }
+
+    #services {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .services_left .img_group img {
+        width: auto;
+        margin: 45px 0px 0px 60px;
+    }
+
+    .services_right {
+        margin: 4rem 0 0 10px;
+    }
+
+    .services_right h2 {
+        font-size: 32px;
+    }
+
+    .services_left .img_group .frame {
+        margin: 158px 0px 0px 90px;
+    }
+
+    .services_right p {
+        font-size: 10px;
+    }
+
+    .services_2 {
+        flex-direction: column;
+    }
+
+    .services_left_2 {
+        margin-top: 40px;
+    }
+
+    .services_left_2 p {
+        font-size: 10px;
+    }
+
+    .services_left_2 p {
+        font-size: 7px;
+    }
+
+    .services_right_2 {
+        margin-top: 40px;
+    }
+
+    .services_right_2 .img_group img {
+        width: auto;
+        margin: 45px 0px 0px 55px;
+    }
+
+    .services_3 {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .services_left_3 .img_group img {
+        width: auto;
+        margin: 50px 0px 0px 60px
+    }
+
+    .services_left_3 .img_group .frame_3 {
+        margin: 158px 0px 0px 90px;
+    }
+
+    .services_right_3 h2 {
+        margin-top: 50px;
+        font-size: 29px;
+    }
+
+    .services_right_3 p {
+        font-size: 11px;
+    }
+
+    .services_right_3 p {
+        font-size: 10px;
+    }
+
+    .bring_system .left_side h2 {
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+
+    .bring_system .left_side p {
+        font-size: 11px;
+    }
+
+    .main_card,
+    .main_card_1 {
+        flex-direction: column;
+    }
+
+    .bring_system .right_side {
+        margin-left: 3rem;
+    }
+
+    .application h2 {
+        font-size: 36px;
+    }
+
+    .application p {
+        font-size: 11px;
+    }
+
+    .card_body .application_card_icon {
+        margin-left: 150px;
+    }
+
+    .card_body .application_card_title {
+        font-size: 1.5rem;
+    }
+
+    .card_body .application_card_p {
+        font-size: 18px;
+    }
+
+    .customers_content {
+        flex-direction: column;
+    }
+
+    .customers_card {
+        flex-direction: column;
+    }
+
+    .counter {
+        flex-direction: column;
+    }
+
+    .counter_1{
+        padding: 20px 40px;
+    }
+    .counter_2,
+    .counter_3 {
+        padding: 20px 45px;
+    }
+
+    .customers_icon,
+    .customers_icon_2 {
+        display: none;
+    }
+    .counter_2,
+    .counter_3 {
+        margin: 0px 0px 50px 0px;
+    }
+    .accordion_tab > label{
+        padding: 12px 25px;
+    }
+    .accordion_tab > label::after{
+        left: 312px;
+    }
+    .modernize{
+        padding: 50px 0;
+    }
+    .modernize .container{
+        flex-wrap: wrap;
+    }
+    .modernize_left_side img{
+        margin: 0;
+    }
+    .modernize_right_side h2 {
+        font-size: 22px;
+    }
+    .modernize_right_side{
+        margin-top: -35px;
+    }
+    .modernize_right_side p{
+        padding-top: 0;
+    }
+    .modernize_btn img {
+        margin: 0 3px 0 0;
+    }
+    #foot .main_footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .link-part-1 .part-1 h4{
+        padding-left: 0;
+    }
+    .link-part-1 .part-1 ul{
+        padding-left: 0;
+    }
+}
